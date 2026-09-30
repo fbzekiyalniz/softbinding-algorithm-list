@@ -846,5 +846,103 @@
             "contact": "collomos@adobe.com",
             "informationalUrl": "https://arxiv.org/abs/2607.05261"
         }
+    },
+    {
+        "identifier": 54,
+        "alg": "com.meta.pixelseal.1",
+        "type": "watermark",
+        "decodedMediaTypes": [
+            "image",
+            "video"
+        ],
+        "encodedMediaTypes": [
+            "image/png",
+            "image/jpeg",
+            "image/webp",
+            "video/mp4",
+            "video/webm"
+        ],
+        "entryMetadata": {
+            "description": "Meta PixelSeal adversarial-only invisible watermarking for images and video, designed for robust, imperceptible content provenance across common edits and compression. Part of Meta's Content Seal suite.",
+            "dateEntered": "2026-09-30T00:00:00.000Z",
+            "contact": "opensource@meta.com",
+            "informationalUrl": "https://ai.meta.com/research/publications/pixel-seal-adversarial-only-training-for-invisible-image-and-video-watermarking/"
+        }
+    },
+    {
+        "identifier": 55,
+        "alg": "com.meta.chunkyseal.1",
+        "type": "watermark",
+        "decodedMediaTypes": [
+            "image"
+        ],
+        "encodedMediaTypes": [
+            "image/png",
+            "image/jpeg",
+            "image/webp"
+        ],
+        "entryMetadata": {
+            "description": "Meta ChunkySeal high-capacity invisible watermarking for images, extending PixelSeal to a 1024-bit payload while preserving visual quality and robustness. Part of Meta's Content Seal suite.",
+            "dateEntered": "2026-09-30T00:00:00.000Z",
+            "contact": "opensource@meta.com",
+            "informationalUrl": "https://arxiv.org/abs/2510.12812"
+        }
+    },
+    {
+        "identifier": 56,
+        "alg": "com.meta.videoseal.1",
+        "type": "watermark",
+        "decodedMediaTypes": [
+            "video"
+        ],
+        "encodedMediaTypes": [
+            "video/mp4",
+            "video/webm"
+        ],
+        "entryMetadata": {
+            "description": "Meta VideoSeal open and efficient invisible watermarking for video, resilient to common editing operations and video codecs. Part of Meta's Content Seal suite.",
+            "dateEntered": "2026-09-30T00:00:00.000Z",
+            "contact": "opensource@meta.com",
+            "informationalUrl": "https://github.com/facebookresearch/videoseal"
+        }
+    },
+    {
+        "identifier": 57,
+        "alg": "com.meta.audioseal.1",
+        "type": "watermark",
+        "decodedMediaTypes": [
+            "audio"
+        ],
+        "encodedMediaTypes": [
+            "audio/mpeg",
+            "audio/wav",
+            "audio/flac",
+            "audio/mp4"
+        ],
+        "entryMetadata": {
+            "description": "Meta AudioSeal localized audio watermarking with sample-level detection and streaming support. Part of Meta's Content Seal suite.",
+            "dateEntered": "2026-09-30T00:00:00.000Z",
+            "contact": "opensource@meta.com",
+            "informationalUrl": "https://github.com/facebookresearch/audioseal"
+        }
+    },
+    {
+        "identifier": 58,
+        "alg": "com.meta.textseal.1",
+        "type": "watermark",
+        "decodedMediaTypes": [
+            "text"
+        ],
+        "encodedMediaTypes": [
+            "text/plain",
+            "text/markdown",
+            "text/html"
+        ],
+        "entryMetadata": {
+            "description": "Meta TextSeal localized language-model watermark for provenance and distillation protection, with dual-key Gumbel-max sampling and multi-region localization. Part of Meta's Content Seal suite.",
+            "dateEntered": "2026-09-30T00:00:00.000Z",
+            "contact": "opensource@meta.com",
+            "informationalUrl": "https://github.com/facebookresearch/textseal"
+        }
     }
 ]
